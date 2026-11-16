@@ -1,0 +1,78 @@
+{
+  "versjon": 1,
+  "oppdatert": "2026-11-16",
+  "nedlasting": "https://github.com/danieldydland/skrift-skript/archive/refs/heads/main.zip",
+  "skript": [
+    {
+      "id": "webmed-skrift",
+      "navn": "Skrift for WebMed",
+      "beskrivelse": "Dagslisten til innboksen, innsjekk og legemiddelgjennomgang fra timeboka eller journalen, ring og videorom. Meny på F11, veiviser ved første kjøring, kalibrering av skjermpunktene.",
+      "journalsystem": "WebMed",
+      "mappe": "webmed/skrift-webmed",
+      "hovedfil": "webmed/skrift-webmed/dagsliste.ahk",
+      "rettigheter": [
+        "innsjekk",
+        "postkasse",
+        "sms",
+        "kommando"
+      ],
+      "krav": "Windows 10 eller 11, AutoHotkey v2.0.18, WebMed 55",
+      "versjon": "0.11.2",
+      "datoTestet": "2026-11-01",
+      "sha256": "217f5e25249012280f91baa7b4d916cd495276d41873a60604d58c2104d3a054",
+      "lenke": "https://github.com/danieldydland/skrift-skript/tree/main/webmed/skrift-webmed",
+      "fil": "https://github.com/danieldydland/skrift-skript/blob/main/webmed/skrift-webmed/dagsliste.ahk"
+    },
+    {
+      "id": "eksempel-ny-innsjekk",
+      "navn": "Ny innsjekk, lenke og PIN til utklippstavlen",
+      "beskrivelse": "Ctrl+Shift+F8: spør om en referanse, lager innsjekken og legger meldingen til pasienten på utklippstavlen.",
+      "journalsystem": "Alle",
+      "mappe": "eksempler",
+      "hovedfil": "eksempler/ny-innsjekk-lim-inn.ahk",
+      "rettigheter": [
+        "innsjekk"
+      ],
+      "krav": "Windows, AutoHotkey v2",
+      "versjon": "1.0.0",
+      "datoTestet": "2026-11-06",
+      "sha256": "6dc83e2dfc7b192f0be961d26690c5928cff3a864d5989784998bcd3d7bdad0d",
+      "lenke": "https://github.com/danieldydland/skrift-skript/tree/main/eksempler",
+      "fil": "https://github.com/danieldydland/skrift-skript/blob/main/eksempler/ny-innsjekk-lim-inn.ahk"
+    },
+    {
+      "id": "eksempel-videorom",
+      "navn": "Videorom, lenken til utklippstavlen",
+      "beskrivelse": "Ctrl+Shift+F12: lager et videorom i Skrift og legger pasientlenken på utklippstavlen.",
+      "journalsystem": "Alle",
+      "mappe": "eksempler",
+      "hovedfil": "eksempler/videorom-lim-inn.ahk",
+      "rettigheter": [
+        "kommando"
+      ],
+      "krav": "Windows, AutoHotkey v2",
+      "versjon": "1.0.0",
+      "datoTestet": "2026-11-06",
+      "sha256": "5fa6019157161de655dfd85932ac1308c5158ec1578bfb23537bff97d85c071e",
+      "lenke": "https://github.com/danieldydland/skrift-skript/tree/main/eksempler",
+      "fil": "https://github.com/danieldydland/skrift-skript/blob/main/eksempler/videorom-lim-inn.ahk"
+    },
+    {
+      "id": "eksempel-ring",
+      "navn": "Ring opp et markert nummer",
+      "beskrivelse": "Ctrl+Shift+F11: kopierer det markerte nummeret, viser det og ber Skrift-fanen ringe når du bekrefter.",
+      "journalsystem": "Alle",
+      "mappe": "eksempler",
+      "hovedfil": "eksempler/ring-markert-nummer.ahk",
+      "rettigheter": [
+        "kommando"
+      ],
+      "krav": "Windows, AutoHotkey v2",
+      "versjon": "1.0.0",
+      "datoTestet": "2026-11-06",
+      "sha256": "06cc2cbe09cf7eb027c19e89e5847d8f9655a5056eef14dcf4bbe67e333d0b1a",
+      "lenke": "https://github.com/danieldydland/skrift-skript/tree/main/eksempler",
+      "fil": "https://github.com/danieldydland/skrift-skript/blob/main/eksempler/ring-markert-nummer.ahk"
+    }
+  ]
+}
