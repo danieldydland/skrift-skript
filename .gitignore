@@ -1,0 +1,5 @@
+# Tokenfiler og lokale innstillinger hører aldri hjemme her
+*token*.ini
+config.ini
+webmed/skrift-webmed/logg/*
+webmed/skrift-webmed/eksempler/*
